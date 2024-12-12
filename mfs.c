@@ -282,7 +282,7 @@ void stat(char* token[]) {
 }
 
 void get(char* token[]) {
-  // Checkif file is currently open
+  // Check if file is currently open
   if (fp == NULL) {
     printf("Error: File system image must be opened first.\n");
     return;
